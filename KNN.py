@@ -18,8 +18,6 @@ else:
 # 3. Chọn các cột đặc trưng
 # =========================
 feature_cols = [
-    "year",
-    "duration_ms",
     "danceability",
     "energy",
     "key",
@@ -41,7 +39,7 @@ feature_cols = [col for col in feature_cols if col in df.columns]
 df = df.dropna(subset=feature_cols).reset_index(drop=True)
 
 # =========================
-# 4. Chuẩn hóa dữ liệu thủ công
+# 4. Chuẩn hóa dữ liệu
 # =========================
 X_raw = df[feature_cols].values.astype(np.float32)
 
@@ -90,7 +88,7 @@ def nearest_neighbor(query_vector, data_matrix):
 # =========================
 # 8. Hàm top-k nearest neighbors
 # =========================
-def top_k_nearest_neighbors(query_vector, data_matrix, k=10, exclude_index=None):
+def top_k_nearest_neighbors(query_vector, data_matrix, k, exclude_index=None):
     distances = []
 
     for i in range(len(data_matrix)):
@@ -120,9 +118,9 @@ def find_song_index(song_name, artist_name=None):
     return temp.index[0]
 
 # =========================
-# 10. Hàm recommend từ nearest neighbors tự code
+# 10. Hàm recommend
 # =========================
-def recommend_songs(song_name, artist_name=None, top_n=10):
+def recommend_songs(song_name, artist_name=None, top_n=10, exclude_index=None):
     song_idx = find_song_index(song_name, artist_name)
 
     if song_idx is None:
@@ -141,14 +139,16 @@ def recommend_songs(song_name, artist_name=None, top_n=10):
     neighbor_distances = [dist for idx, dist in neighbors]
     similarity_scores = [1 - dist for dist in neighbor_distances]
 
-    result_cols = [col for col in ["name", "artist", "genre", "year"] if col in df.columns]
+    result_cols = [col for col in ["name", "artist"] if col in df.columns]
     results = df.loc[neighbor_indices, result_cols].copy()
     results["distance"] = neighbor_distances
     results["similarity_score"] = similarity_scores
-
+    results.to_csv("recommendations.csv", index=False)
     return results.reset_index(drop=True)
 
 # =========================
 # 11. Demo
 # =========================
-print(recommend_songs("Mr. Brightside", top_n=10))
+if __name__ == "__main__":
+    print(recommend_songs("Mr. Brightside", top_n=10))
+# print (top_k_nearest_neighbors(X[2],X,10,2))
