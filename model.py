@@ -107,25 +107,6 @@ def cosine_similarity(vec1, vec2):
 def cosine_distance(vec1, vec2):
     return 1 - cosine_similarity(vec1, vec2)
 
-# =========================
-#  Top-k nearest neighbors
-# =========================
-def top_k_nearest_neighbors(query_vector, data_matrix, k, exclude_index=None):
-    distances = []
-
-    for i in range(len(data_matrix)):
-        if exclude_index is not None and i == exclude_index:
-            continue
-
-        dist = cosine_distance(query_vector, data_matrix[i])
-        distances.append((i, dist))
-
-    distances.sort(key=lambda x: x[1])
-    return distances[:k]
-
-# =========================
-#  Tìm bài hát
-# =========================
 def find_song_index(song_name, artist_name=None):
     temp = df[df["name"].str.lower() == song_name.lower()]
 
@@ -137,41 +118,7 @@ def find_song_index(song_name, artist_name=None):
 
     return temp.index[0]
 
-# =========================
-# Recommend
-# =========================
-def recommend_songs(song_name, artist_name=None, top_n=10):
-    song_idx = find_song_index(song_name, artist_name)
 
-    if song_idx is None:
-        return f"Không tìm thấy bài hát: {song_name}"
-
-    query_vector = X[song_idx]
-
-    neighbors = top_k_nearest_neighbors(
-        query_vector=query_vector,
-        data_matrix=X,
-        k=top_n,
-        exclude_index=song_idx
-    )
-
-    neighbor_indices = [idx for idx, dist in neighbors]
-    neighbor_distances = [dist for idx, dist in neighbors]
-    similarity_scores = [1 - dist for dist in neighbor_distances]
-
-    result_cols = [col for col in ["name", "artist", "genre", "tags"] if col in df.columns]
-    results = df.loc[neighbor_indices, result_cols].copy()
-    results["distance"] = neighbor_distances
-    results["similarity_score"] = similarity_scores
-
-    results.to_csv("recommendations_with_tags_genre.csv", index=False)
-    return results.reset_index(drop=True)
-# =========================
-# Recommend dựa trên 5 bài nghe gần nhất
-# =========================
-# =========================
-# Top-k nearest neighbors, loại nhiều bài đã nghe
-# =========================
 def top_k_nearest_neighbors_multiple_exclude(query_vector, data_matrix, k, exclude_indices=None):
     distances = []
 
