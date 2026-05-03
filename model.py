@@ -166,9 +166,87 @@ def recommend_songs(song_name, artist_name=None, top_n=10):
 
     results.to_csv("recommendations_with_tags_genre.csv", index=False)
     return results.reset_index(drop=True)
+# =========================
+# Recommend dựa trên 5 bài nghe gần nhất
+# =========================
+# =========================
+# Top-k nearest neighbors, loại nhiều bài đã nghe
+# =========================
+def top_k_nearest_neighbors_multiple_exclude(query_vector, data_matrix, k, exclude_indices=None):
+    distances = []
+
+    if exclude_indices is None:
+        exclude_indices = []
+
+    exclude_indices = set(exclude_indices)
+
+    for i in range(len(data_matrix)):
+        if i in exclude_indices:
+            continue
+
+        dist = cosine_distance(query_vector, data_matrix[i])
+        distances.append((i, dist))
+
+    distances.sort(key=lambda x: x[1])
+    return distances[:k]
+def recommend_from_recent_songs(recent_songs, top_n=5):
+    """
+    recent_songs: danh sách các bài hát đã nghe gần nhất.
+    Mỗi phần tử có dạng:
+        ("song_name", "artist_name")
+    hoặc:
+        ("song_name", None)
+    """
+
+    song_indices = []
+
+    for song_name, artist_name in recent_songs:
+        idx = find_song_index(song_name, artist_name)
+
+        if idx is not None:
+            song_indices.append(idx)
+
+    if len(song_indices) == 0:
+        return "Không tìm thấy bài hát nào trong danh sách đã nghe."
+
+    # Lấy vector của các bài đã nghe
+    recent_vectors = X[song_indices]
+
+    # Tạo vector đại diện bằng trung bình cộng
+    query_vector = np.mean(recent_vectors, axis=0)
+
+    # Tìm top bài gần nhất, loại bỏ các bài đã nghe
+    neighbors = top_k_nearest_neighbors_multiple_exclude(
+        query_vector=query_vector,
+        data_matrix=X,
+        k=top_n,
+        exclude_indices=song_indices
+    )
+
+    neighbor_indices = [idx for idx, dist in neighbors]
+    neighbor_distances = [dist for idx, dist in neighbors]
+    similarity_scores = [1 - dist for dist in neighbor_distances]
+
+    result_cols = [col for col in ["name", "artist", "genre", "tags"] if col in df.columns]
+    results = df.loc[neighbor_indices, result_cols].copy()
+    results["distance"] = neighbor_distances
+    results["similarity_score"] = similarity_scores
+
+    results.to_csv("recommendations_from_recent_songs.csv", index=False)
+
+    return results.reset_index(drop=True)
 
 # =========================
 #  Demo
 # =========================
 if __name__ == "__main__":
-    print(recommend_songs("Mr. Brightside", top_n=10))
+    # print(recommend_songs("Mr. Brightside", top_n=10))
+    recent_songs = [
+        ("Mr. Brightside", None),
+        ("Wonderwall", None),
+        ("Come As You Are", None),
+        ("Take Me Out", None),
+        ("Creep", None)
+    ]
+
+    print(recommend_from_recent_songs(recent_songs, top_n=5))

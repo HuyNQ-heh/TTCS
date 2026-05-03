@@ -1,0 +1,101 @@
+sample_id,recent_songs,recent_tags_count,precision@1,precision@3,precision@5,precision@10,relevant_count@1,relevant_count@3,relevant_count@5,relevant_count@10
+1,Rest - The Temper Trap | Blame It on My Youth - Brad Mehldau | Pitch the Baby - Cocteau Twins | Black Mass - Electric Wizard | Notas - Gotan Project,18,1.0,0.3333333333333333,0.2,0.1,1,1,1,1
+2,Back From Space - Amon Tobin | Gerald Did What - Evergreen Terrace | The Supine - Andrew Bird | Shadowplay - Joy Division | Know Me - Frankie Rose,20,0.0,0.0,0.0,0.0,0,0,0,0
+3,Stars Tonight - Lady Antebellum | Things I Cannot Recall - Blind Pilot | These New Knights - Ou Est Le Swimming Pool | Chelsea - The Summer Set | Transfer Complete - Dargaard,12,0.0,0.0,0.0,0.0,0,0,0,0
+4,There Goes The Fear - Doves | Violent & Funky - Infectious Grooves | You Got Served - Lovehatehero | The Body Breaks - Devendra Banhart | Mondegreen - Yeasayer,21,1.0,0.6666666666666666,0.6,0.3,1,2,3,3
+5,Mary Jane Shoes - Fergie | Shiller - Ratatat | My Music - Sistars | 21st Century - Red Hot Chili Peppers | New Flowers - Tanlines,14,0.0,0.0,0.0,0.0,0,0,0,0
+6,In the Beginning - Amorphis | Electricity Drive - Alphawezen | Victory Song - Ensiferum | Paint Pastel Princess - Silverchair | Kairos - Sepultura,18,0.0,0.0,0.2,0.1,0,0,1,1
+7,Cult - Slayer | The Dress - Blonde Redhead | Honky Tonk Women - The Rolling Stones | Why Go? - Faithless | The Ponytail Parades - Emery,26,0.0,0.0,0.0,0.0,0,0,0,0
+8,Reality Clash - Antimatter | Babylon - David Gray | Stuck Between - Riverside | Strange - The Feeling | My Lover's Box - Garbage,23,0.0,0.0,0.0,0.0,0,0,0,0
+9,Skinny Boy - Amy Millan | Love Thing - Joe Satriani | Don't Know Why - Norah Jones | Treading Water - Alex Clare | Next To Me - Imagine Dragons,14,0.0,0.0,0.0,0.0,0,0,0,0
+10,Polska - Kult | Army Of Darkness - Amon Amarth | Missing The War - Ben Folds Five | Basscadet - Autechre | Consequences - Iced Earth,14,0.0,0.0,0.0,0.0,0,0,0,0
+11,That's How You Know - Amy Adams | The Definition - Scooter | Freestyle 4 - Kanye West | Sinner - Drowning Pool | Until the End - Norah Jones,13,0.0,0.0,0.0,0.0,0,0,0,0
+12,Time Take - Smolik | Lai Lai Hei - Ensiferum | You Already Did - Russian Circles | Spinning - Jack's Mannequin | Feel Like I Do - Disclosure,11,0.0,0.0,0.0,0.0,0,0,0,0
+13,Hurry Up and Wait - Stereophonics | Tuff Luff - The Unicorns | Inamorata - Animals as Leaders | Aurora Borealis - Meat Puppets | Dance Hall - Modest Mouse,15,1.0,0.6666666666666666,0.6,0.8,1,2,3,8
+14,Fall Asleep - Rodrigo Amarante | Please Mr. Postman - The Marvelettes | Runaway Car - Mat Kearney | P-rofi - Stafrænn Hákon | Easier Said Than Done - Morcheeba,14,0.0,0.0,0.0,0.0,0,0,0,0
+15,You Could Make A Killing - Aimee Mann | Wash Off - Deerhunter | Violent Life - Blonde Redhead | Tyler - Toadies | Dubplate Murder Sound - Shitmat,16,0.0,0.0,0.0,0.2,0,0,0,2
+16,We Build Then We Break - The Fray | I Love Being Here With You - Diana Krall | My Sweet Lord - George Harrison | It's All I Can Do - The Cars | NJ Legion Iced Tea - A Day to Remember,16,0.0,0.3333333333333333,0.2,0.3,0,1,1,3
+17,Lost in Despair - Ensiferum | The Fly - U2 | Good Morning Revival - Good Charlotte | All Day Breakfast - Jel | Laughable Butane Bob - AFX,14,0.0,0.0,0.0,0.0,0,0,0,0
+18,From the Ritz to the Rubble - Arctic Monkeys | My Manic and I - Laura Marling | The Day Before You Came - ABBA | Trinity (Gigglebush) - Bongzilla | Shutdown - Skepta,16,0.0,0.0,0.0,0.2,0,0,0,2
+19,The Pirate's Gospel - Alela Diane | Riders On The Storm - Die Apokalyptischen Reiter | Elysian Feels - The Future Sound of London | The Black Canvas - Borknagar | Muscle Cars - Mylo,16,0.0,0.0,0.0,0.0,0,0,0,0
+20,Remember The Mountain Bed - Billy Bragg & Wilco | I Think I Love You - The Partridge Family | Slowly Surely - Jill Scott | Guy Who Got a Headache and Accidentally Saves the World - The Flaming Lips | Uncle Tom's Cabin - Warrant,16,0.0,0.0,0.0,0.0,0,0,0,0
+21,Cloister - Loscil | Hellraiser - Ozzy Osbourne | Please Do Not Let Me Go - Ryan Adams | No Love Lost - Joy Division | The Gulag Orkestar - Beirut,18,0.0,0.0,0.0,0.0,0,0,0,0
+22,White Room - Cream | Bangla Soul - Baul Dimension | Sinister - Pentagram | Godspell - The Cardigans | A Real Woman - Squarepusher,19,0.0,0.0,0.2,0.1,0,0,1,1
+23,A Woman's Voice - Wax Tailor | Lake Erie Rainfall - Jim Brickman | Hooked - Seabound | Nur mit dir - Element of Crime | Face of Melinda - Opeth,15,0.0,0.0,0.0,0.0,0,0,0,0
+24,This Dark Matter - London Elektricity | Looking For Somebody - Fleetwood Mac | 100 Dollars - Manchester Orchestra | Ring Them Bells - Sufjan Stevens | Missing Those Days - Gentleman,15,0.0,0.0,0.0,0.0,0,0,0,0
+25,Another Woman - Moby | Plagueheritage - Neaera | Obsessed - Mariah Carey | Halt Mich - Philipp Poisel | Dom som försvann - Kent,17,0.0,0.0,0.0,0.0,0,0,0,0
+26,I Met Your Mercy - Remy Shand | Der letzte Tanz - Schandmaul | Diving - 4 Strings | Without Emotions - Combichrist | Streets of Tomorrow - Angra,7,0.0,0.0,0.0,0.1,0,0,0,1
+27,Waking Up Beside You - Stabbing Westward | Becoming - Pantera | Old Yellow Bricks - Arctic Monkeys | Keep It Clean - Camera Obscura | Jabo's Night Out - Plej,18,1.0,0.6666666666666666,0.4,0.2,1,2,2,2
+28,Maddening Disdain - Arsis | Scorned - Rawthang | Harboring An Apparition - Mouth of the Architect | At The same time - Hindi Zahra | Thunder Underground - Ozzy Osbourne,8,0.0,0.0,0.0,0.0,0,0,0,0
+29,"Narcoleptic - Placebo | Alone I Break - Korn | Charmer - Kings of Leon | Cry, Cry, Cry - Johnny Cash | Bohemian Grove - Emmure",19,1.0,0.6666666666666666,0.4,0.4,1,2,2,4
+30,Symmetry - Dethklok | Doll Parts - Hole | Body And Soul - Billie Holiday | Come to Daddy - The Dillinger Escape Plan | Blaue Flecken - Rosenstolz,17,0.0,0.0,0.0,0.0,0,0,0,0
+31,No Man Can Find The War - Tim Buckley | Neighbour Riffs - Surfer Blood | Terrible - Insane Clown Posse | Saltwater - Chicane | Jet Pilot - System of a Down,22,0.0,0.0,0.0,0.0,0,0,0,0
+32,Something I Never Had - Lindsay Lohan | Slammin - Pulsedriver | Alexandria - Kamelot | Don't Come Close - Ramones | Don't Forget Me (When I'm Gone) - Glass Tiger,11,0.0,0.0,0.0,0.0,0,0,0,0
+33,It's Been Awhile - Staind | I'm You - Leona Lewis | The Weight - The Band | This Is The Time - Billy Joel | Careful - Paramore,15,0.0,0.3333333333333333,0.2,0.1,0,1,1,1
+34,On Every Other Street - Cabaret Voltaire | Burning Down the Nicotine Armoire - Dance Gavin Dance | Blood On My Hands - Morbid Angel | Endings Without Stories - Alesana | Watch the Tapes - LCD Soundsystem,12,0.0,0.0,0.0,0.0,0,0,0,0
+35,"Mannequin - Katy Perry | Lost, Picking Flowers In the Woods - Black Moth Super Rainbow | I Just Died In Your Arms - Northern Kings | Nobody Loves Me - Limp Bizkit | Sublime - Ferry Corsten",10,0.0,0.0,0.0,0.0,0,0,0,0
+36,I Have Failed - Crowbar | Brooks Was Here - Thomas Newman | Hey Ya - Obadiah Parker | Emergency Call - Matt Costa | City Song - Daughters,16,0.0,0.0,0.0,0.0,0,0,0,0
+37,Fall At Your Feet - Boy & Bear | The Individual - Spiritualized | Snakepit - The Cure | Romeo & Julia - NIHAO? | On Wings Of Integrity - MyChildren MyBride,30,0.0,0.0,0.0,0.0,0,0,0,0
+38,Welcome to the Jungle - Guns N' Roses | Slow Down! - Moonspell | A Proper Sendoff - My Bitter End | The Only One - The Black Keys | God's Away on Business - Tom Waits,20,0.0,0.0,0.0,0.0,0,0,0,0
+39,From My Hands - Salt The Wound | Rotting Head - Cannibal Corpse | Gracias A La Vida - Mercedes Sosa | The Big Jump - The Chemical Brothers | Normandie - Shout Out Louds,11,0.0,0.3333333333333333,0.2,0.1,0,1,1,1
+40,Bioactive - Sybreed | Cat Video - Blue Man Group | All Systems Go - Box Car Racer | Nocturnal Riders - Mithotyn | Reach Out - Take That,14,0.0,0.0,0.0,0.0,0,0,0,0
+41,Can You Stand The Rain - New Edition | Insect - Switchblade Symphony | The Wedding Night - Patrick Doyle | What Up Gangsta - 50 Cent | Echolot - Wir sind Helden,12,0.0,0.0,0.0,0.0,0,0,0,0
+42,Queen - Perfume Genius | Walk Like The Dead - Caliban | Nineteen - Tegan and Sara | The Walrus Hunt - The Residents | Billie Jean - Michael Jackson,19,0.0,0.0,0.2,0.1,0,0,1,1
+43,405 - Death Cab for Cutie | Last Year's Rain Didn't Fall Quite So Hard - The Twilight Sad | Costume Makes the Clown - Shakira | Sight for Sore Eyes - Aerosmith | Cryin' - Aerosmith,17,0.0,0.0,0.0,0.0,0,0,0,0
+44,My Very Best - Elbow | Cut Down - Control Denied | Squares - The Beta Band | The Thin Line - Queensrÿche | I Belong to You - Lenny Kravitz,23,1.0,0.3333333333333333,0.2,0.3,1,1,1,3
+45,Tuna 1613 - Therion | Måndagsbarn - Veronica Maggio | Finnis Fatalis Spei - Bleeding Through | Somebody's Watching You - Sly & The Family Stone | Bright Idea - Orson,17,0.0,0.0,0.0,0.0,0,0,0,0
+46,Bust A Move - Infected Mushroom | The River - Bruce Springsteen | Lamento - Santa Sabina | Dogs of War - AC/DC | Lemmings - blink-182,12,0.0,0.0,0.2,0.2,0,0,1,2
+47,Festival Of The Goddess - David Arkenstone | Beagle - Chateau Marmont | Fault Line - Black Rebel Motorcycle Club | Skeleton Tiger - Tame Impala | Hostage - Sia,24,0.0,0.0,0.0,0.0,0,0,0,0
+48,Cat Scratch Fever - Ted Nugent | Once In A While - Madeleine Peyroux | Death to Feelers - Matthew Dear | System - Coma | Letters From The Sky - Civil Twilight,17,0.0,0.0,0.2,0.2,0,0,1,2
+49,2080 - Yeasayer | Evil Devolution - Ayreon | Trista Pena - Gipsy Kings | But Tonight We Dance - Rise Against | Head Down - Nine Inch Nails,15,0.0,0.0,0.0,0.0,0,0,0,0
+50,Give A Little Love - Noah and the Whale | Second Awakening - Kreator | Metal Postcard (Mittageisen) - Siouxsie and the Banshees | Interstate 8 - Modest Mouse | Bohemian Forest - Pantha du Prince,22,0.0,0.0,0.0,0.0,0,0,0,0
+51,The Afternoon Turns Pink - Black Moth Super Rainbow | Calculate The Apocalypse - Scar Symmetry | The Orphan - Amorphis | Sanctity Of Brothers - Unearth | My War - Black Flag,13,1.0,0.6666666666666666,0.4,0.3,1,2,2,3
+52,The Chimbley Sweep - The Decemberists | Just A Car Crash Away - Marilyn Manson | Sulasilmä - Korpiklaani | I Can't Stand Up For Falling Down - Elvis Costello & The Attractions | The Dark Side - Muse,15,0.0,0.0,0.0,0.0,0,0,0,0
+53,Thumb - Kyuss | Dark Center of the Universe - Modest Mouse | Born To Move - Creedence Clearwater Revival | Sadistic Lullabye - Soilwork | Modern - Mogwai,23,0.0,0.0,0.0,0.0,0,0,0,0
+54,Failing - Staind | You Could Ruin My Day - Four Tet | Fate of the Condemned - Dying Fetus | Die Welt steht still - Revolverheld | Talk Talk Talk - The Ordinary Boys,18,0.0,0.0,0.0,0.0,0,0,0,0
+55,The Hollow - A Perfect Circle | Together as One - Death | Knight Of Wands - Au Revoir Simone | San Francisco Bay Blues - Eric Clapton | Endless Night - Graveyard,21,0.0,0.0,0.0,0.0,0,0,0,0
+56,Skinny Love - Bon Iver | Moi c'est - Camélia Jordana | It's Not Enough - The Who | Aerials - System of a Down | Panda Bear - Owl City,22,0.0,0.0,0.2,0.3,0,0,1,3
+57,Mathematics - Mos Def | Heart-Shaped Glasses (When The Heart Guides The Hand) - Marilyn Manson | The Day Before You Came - ABBA | Mummy - Ulver | Goodbye Great Britain - A Hawk and a Hacksaw,13,0.0,0.0,0.0,0.0,0,0,0,0
+58,This Isn't the End - A Skylit Drive | Autonomy - Buzzcocks | Ultimate - Gogol Bordello | Silver Stallion - Cat Power | Me Late - Los Pericos,14,0.0,0.0,0.0,0.0,0,0,0,0
+59,Long Long Journey - Enya | This Time Around - Michael Jackson | The Life Of Riley - The Lightning Seeds | The Tip Of The Iceberg - Owl City | Silverfuck - The Smashing Pumpkins,13,1.0,0.6666666666666666,0.6,0.6,1,2,3,6
+60,Melt Me - Black Moth Super Rainbow | Mango - Sascha Funke | Ricky - John Frusciante | Death of Me - Red | Ricky's Hand - Fad Gadget,18,0.0,0.0,0.0,0.0,0,0,0,0
+61,You Better Move On - The Rolling Stones | Make No Mistake - Keith Richards | Call Me When You're Sober - Evanescence | Richard III - Supergrass | Transmigrating Beyond Realms ov Amenti - Behemoth,17,0.0,0.3333333333333333,0.2,0.1,0,1,1,1
+62,The Only Night - James Morrison | I Am Not Batman - Mogwai | Sona - Secret Garden | Golden Years - David Bowie | Count Five or Six - Cornelius,23,0.0,0.0,0.0,0.0,0,0,0,0
+63,Miss Alissa - Eagles of Death Metal | Mr. Krinkle - Primus | The Bad Thing - Arctic Monkeys | Into The Dementia - Symphony X | When It All Goes Wrong Again - Everclear,17,0.0,0.3333333333333333,0.2,0.3,0,1,1,3
+64,Godeatgod - Marilyn Manson | Delilah - The Dresden Dolls | Flipside - Hypnotic Brass Ensemble | Lost In Time - Arcana | Haunted Shores - Cradle of Filth,16,0.0,0.0,0.0,0.0,0,0,0,0
+65,Icky Thump - The White Stripes | Mr. Bad Luck - Jimi Hendrix | Heavy Water - Foals | Thickets - Patrick Wolf | Allies - Strike Anywhere,20,1.0,1.0,1.0,0.7,1,3,5,7
+66,In Da Club - 50 Cent | Flakes - Mystery Jets | Remember to Breathe - Dashboard Confessional | Stereo 99 - Blue States | Broken English - Rise Against,17,0.0,0.0,0.0,0.0,0,0,0,0
+67,"Promises, Promises - Incubus | Von den Elben - Faun | To Hell and Back - Venom | No Win Situation - Hoobastank | Infiltrating My Way Through the System - Ayria",17,0.0,0.0,0.0,0.0,0,0,0,0
+68,Angela's Lament - Thunderball | Gold Mine Gutted - Bright Eyes | A Coming Race - Hypocrisy | Heart Sweats - Japandroids | Southern Nights - Glen Campbell,16,0.0,0.0,0.0,0.0,0,0,0,0
+69,Fruit Tree - Nick Drake | Nada Es Para Siempre - Luis Fonsi | No Need To Worry - Yeasayer | The Chariot - The Cat Empire | The Listening - Lights,21,0.0,0.6666666666666666,0.6,0.3,0,2,3,3
+70,Tha - Aphex Twin | My Blue Heaven - Taking Back Sunday | Love Is A Gangsta - Teena Marie | La Notte Etterna - Emma Shapplin | Water Shows the Hidden Heart - Enya,14,0.0,0.0,0.0,0.1,0,0,0,1
+71,You Are My Face - Wilco | Buddy - Plaid | Programmed - Archive | Retrato - Murcof | I'm Outta Love - Anastacia,11,1.0,0.3333333333333333,0.2,0.1,1,1,1,1
+72,"Back Porch - The Presidents of the United States of America | I'll Be Home For Christmas - Diana Krall | Way Of The Warrior - Ensiferum | Into the Void - Nine Inch Nails | Answer Me, My Love - Joni Mitchell",14,0.0,0.0,0.0,0.0,0,0,0,0
+73,Not The Same - Ben Folds | Astronaut - Beach House | Luna - The Smashing Pumpkins | Retrato - Murcof | Playing for Keeps - Matchbook Romance,22,0.0,0.0,0.0,0.0,0,0,0,0
+74,Tell Her - Scuba | Dragondawn - Dragonland | Bloodline - Ariana Grande | Vasos Vacíos - Los Fabulosos Cadillacs | Harmonicas Are Shite - Fila Brazillia,14,0.0,0.0,0.0,0.0,0,0,0,0
+75,Mellow Mood - Slightly Stoopid | Little Moon - First Aid Kit | Flim - Aphex Twin | Orange Blossom Special - Johnny Cash | Lyonesse - 65daysofstatic,19,0.0,0.0,0.0,0.0,0,0,0,0
+76,Panzer - Panzer AG | I'll Be Home for Christmas - Michael Bublé | Firdous E Bareen - Isis | Lost In Space - Misfits | Primitive - Real Estate,14,0.0,0.0,0.0,0.0,0,0,0,0
+77,One Small Step - Amon Tobin | Dummy Discards a Heart - Deerhoof | La Bolsa - Bersuit Vergarabat | Walk With Me - Moby | Sugardaddy - Brutal Truth,16,0.0,0.0,0.0,0.0,0,0,0,0
+78,Possibly Maybe - Björk | Yes I Am - pg.lost | You Could Be Mine - Guns N' Roses | Une nuit en Hilvern - Artesia | Battle Scars - Lupe Fiasco,26,0.0,0.0,0.0,0.1,0,0,0,1
+79,The Admirals Game - The Mount Fuji Doomjazz Corporation | She - Green Day | A Ribbon - Devendra Banhart | Superunknown - Soundgarden | Out-Bloody-Rageous - Soft Machine,16,0.0,0.0,0.0,0.0,0,0,0,0
+80,Disciple - Slayer | Levon - Elton John | Metalingus - Alter Bridge | Goodbye Blue Sky - Pink Floyd | Valkyries' New Ride - Samael,17,0.0,0.0,0.0,0.0,0,0,0,0
+81,Children of the Grave - Black Sabbath | Mall-Nutrition - Heavy Heavy Low Low | Chipmunk - Mr. Scruff | Lagartija Nick - Bauhaus | Sea Of Lies - Symphony X,22,0.0,0.0,0.0,0.0,0,0,0,0
+82,Seamless - Archive | Goon Squad - Deftones | Owlwood - Cult of Luna | Let's Get Blown - Snoop Dogg | Sleep Deprivation - Simian Mobile Disco,20,0.0,0.0,0.2,0.1,0,0,1,1
+83,Shoreless - Camo & Krooked | Indu - Abakus | Harlem Shuffle - The Rolling Stones | Sixpounder - Children of Bodom | Threw It Away - Soil,14,0.0,0.0,0.0,0.0,0,0,0,0
+84,Immer mehr - Madsen | Chameleon Skin - Omnium Gatherum | Forest Power - Deep Forest | Sign Your Name - Terence Trent D'Arby | The New Face of Zero and One - The New Pornographers,13,1.0,0.6666666666666666,0.4,0.3,1,2,2,3
+85,Ten Days - Missy Higgins | Untangle - Four Tet | The Light at the End of the World - My Dying Bride | She Moves - Alle Farben | Deliver Me - Parkway Drive,18,0.0,0.0,0.0,0.1,0,0,0,1
+86,Responsibles - The Red Chord | Hideaway - Kiesza | Citizen/Soldier - 3 Doors Down | Watercolours Into The Ocean - Destroyer | Turtle trouble - Para One,15,0.0,0.3333333333333333,0.4,0.3,0,1,2,3
+87,K-Hole - CocoRosie | With These Hands - Tom Jones | Dead Bodies - Air | Spring Arrives - Azam Ali | AKA M80 the Wolf - Portugal. The Man,22,0.0,0.3333333333333333,0.4,0.3,0,1,2,3
+88,Mossy - Boxcutter | Spiral Architect - Black Sabbath | The Shower Scene - Brand New | Lady Godiva's Operation - The Velvet Underground | Tell Her Tonight - Franz Ferdinand,26,0.0,0.0,0.0,0.0,0,0,0,0
+89,Grindin' - Clipse | Crashing Foreign Cars - Helmet | The Power Is On - The Go! Team | Theme of Sudden Roundabout - Autechre | Drowning Men - Fanfarlo,18,0.0,0.0,0.0,0.0,0,0,0,0
+90,Adia - Sarah McLachlan | Romeo and Juliet - Dire Straits | Runaway Raindrop - Mercury Rev | Dog Eat Dog - AC/DC | Daffodil Lament - The Cranberries,21,0.0,0.3333333333333333,0.2,0.3,0,1,1,3
+91,Oltremare - Ludovico Einaudi | Leave in Silence - Depeche Mode | Nothing's Forever - Entwine | The Zkeleton Keyz to the Dead - Diabolical Masquerade | Skyscrapers - OK Go,19,0.0,0.0,0.0,0.0,0,0,0,0
+92,Cinderella Man - Rush | Just One Thing - My Morning Jacket | Santa Maria - Roland Kaiser | Idiot - Wavves | In A Graveyard - Rufus Wainwright,14,0.0,0.0,0.2,0.3,0,0,1,3
+93,Show You How - The Killers | White Knuckle Ride - Jamiroquai | Already Gone - Kelly Clarkson | Unintended - Muse | Sweet - Lamb,25,0.0,0.6666666666666666,0.4,0.5,0,2,2,5
+94,Center - Enslaved | Ascension Day - Talk Talk | Ave Gengis Khan - Os Mutantes | Dragon Pie - Knights Of The Abyss | Stretched - Infected Mushroom,13,0.0,0.0,0.2,0.1,0,0,1,1
+95,"Someday You Will Be Loved - Death Cab for Cutie | Oh Timbaland - Timbaland | Alejate - Josh Groban | Friend Of The Devil - Counting Crows | Je t'aimais, je t'aime, je t'aimerai - Francis Cabrel",18,0.0,0.0,0.0,0.0,0,0,0,0
+96,Dance With My Father - Luther Vandross | Choke on a Cock - Adam Green | Let U Go - ATB | I'm So Sure - Puddle of Mudd | Angel of the Night - Blutengel,14,0.0,0.0,0.0,0.0,0,0,0,0
+97,Shake It - Metro Station | Desert Sunrise - Brett Dennen | Warum ich hier stehe - Tomte | Der Picknicker - Die Fantastischen Vier | Abandon Ship - Gallows,17,0.0,0.0,0.0,0.0,0,0,0,0
+98,Grand Ideas - Lindstrøm | I Shot The Sheriff - Eric Clapton | Tane Mahuta - The Ruby Suns | Remembering Sunday - All Time Low | Nothing Happens in June - Ulrich Schnauss,18,0.0,0.0,0.0,0.0,0,0,0,0
+99,48 Hours - The Clash | Nardis - Bill Evans | Forthcoming Fire - Heaven Shall Burn | Spectres - Avantasia | A Couple of Instruments - Suburban Kids with Biblical Names,13,0.0,0.0,0.0,0.0,0,0,0,0
+100,Courante - Johann Sebastian Bach | Airhead - Millencolin | Kamikaze - PJ Harvey | December 4th - Jay-Z | Ground Level - Stereo MC's,17,0.0,0.0,0.0,0.0,0,0,0,0
